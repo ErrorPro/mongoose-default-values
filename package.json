@@ -14,6 +14,7 @@
     "mongoose",
     "mongoose-plugin",
     "defaultValue",
+    "mongoose defaultValue",
     "mongodb defaultValue",
     "mongodb"
   ],
