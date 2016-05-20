@@ -7,10 +7,12 @@ var DEFAULT_DEFAULTS = {
 };
 
 module.exports = function(schema, options) {
+  var extentedOptions = Object.assign({}, DEFAULT_DEFAULTS, options);
+
   for (var path in schema.paths) {
     var field = schema.paths[path];
     if (!field.defaultValue) {
-      schema.paths[path].defaultValue = options[field.instance] || DEFAULT_DEFAULTS[field.instance];
+      schema.paths[path].defaultValue = extentedOptions[field.instance];
     }
   }
 }
