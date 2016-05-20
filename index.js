@@ -11,5 +11,5 @@ module.exports = function(schema, options) {
     if (!schema.paths[path].defaultValue) {
       schema.paths[path].defaultValue = options[field.instance] || DEFAULT_DEFAULTS[field.instance];
     }
-  })
+  }
 }
