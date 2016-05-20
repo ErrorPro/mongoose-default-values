@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-default-values",
+  "version": "1.0.0",
+  "description": "Plugin for mongoose with sets up all default values for fields if default values were not provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErrorPro/mongoose-default-values.git"
+  },
+  "keywords": [
+    "Mongoose",
+    "plugin",
+    "mongoose-plugin"
+  ],
+  "author": "Ven Korolev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErrorPro/mongoose-default-values/issues"
+  },
+  "homepage": "https://github.com/ErrorPro/mongoose-default-values#readme"
+}
