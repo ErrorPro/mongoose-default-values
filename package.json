@@ -1,6 +1,6 @@
 {
   "name": "mongoose-default",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for mongoose which sets up all default values for fields if default values were not provided.",
   "main": "index.js",
   "scripts": {
