@@ -3,7 +3,8 @@ var DEFAULT_DEFAULTS = {
   'Boolean': false,
   'Number': 0,
   'String': '',
-  'Array': []
+  'Array': [],
+  'Embedded':{}
 };
 var DEFAULT_IGNORES = [];
 
